@@ -1,4 +1,13 @@
 exec xrdb $HOME/.Xresources
+exec urxvtd -q -f -o
+
+
+### colors
+set $bg #1e2127
+set $border #285bff
+set $fg #abb2bf
+set $grey #ccd5e5
+set $alert #8c62fd
 
 default_border none
 ### Variables

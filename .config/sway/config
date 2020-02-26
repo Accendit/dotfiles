@@ -9,6 +9,10 @@ set $fg #abb2bf
 set $grey #ccd5e5
 set $alert #8c62fd
 
+### Appearance
+smart_gaps on
+gaps inner 10
+
 default_border none
 ### Variables
 #

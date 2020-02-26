@@ -16,10 +16,16 @@ client.urgent           $cl_urge $cl_urge $cl_fore $cl_urge $cl_urge
 
 
 ### Appearance
+
+# Gaps
 smart_gaps on
 gaps inner 10
 
-default_border none
+# Borders
+default_border pixel 1
+default_floating_border normal
+hide_edge_borders smart
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.

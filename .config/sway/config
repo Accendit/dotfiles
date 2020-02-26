@@ -4,7 +4,7 @@ exec urxvtd -q -f -o
 
 ### colors
 set $cl_back #1e2127
-set $border #285bff
+set $cl_high #285bff
 set $cl_fore #abb2bf
 set $cl_back #ccd5e5
 set $cl_urge #8c62fd

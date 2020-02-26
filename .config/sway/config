@@ -3,11 +3,17 @@ exec urxvtd -q -f -o
 
 
 ### colors
-set $bg #1e2127
+set $cl_back #1e2127
 set $border #285bff
-set $fg #abb2bf
-set $grey #ccd5e5
-set $alert #8c62fd
+set $cl_fore #abb2bf
+set $cl_back #ccd5e5
+set $cl_urge #8c62fd
+
+# Colors                border   bg       text     indi     childborder
+client.focused          $cl_high $cl_high $cl_fore $cl_indi $cl_high
+client.focused_inactive $cl_back $cl_back $cl_fore $cl_back $cl_back
+client.unfocused        $cl_back $cl_back $cl_fore $cl_back $cl_back
+client.urgent           $cl_urge $cl_urge $cl_fore $cl_urge $cl_urge
 
 ### Appearance
 smart_gaps on
